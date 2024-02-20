@@ -1,3 +1,10 @@
+/*
+seg(int N) 長さNのセグ木を作成
+seg(vec<int>v)配列でセグ木を作成
+act(int i)配列のi番目にアクセス
+up(int i T x)配列のi番目を更新
+out(int l,int r)l以上r未満の区間の値を出力
+*/
 #include <bits/stdc++.h>
 template<typename T>
 struct seg{
